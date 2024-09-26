@@ -1,0 +1,67 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    /* border: red 2px solid; */
+    height: 50vw;
+    width: 50vw;
+    background: url('analogCLOCK.jpg') no-repeat;
+    background-size: 100%;
+}
+
+#hour , #minute , #second {
+    position: absolute;
+    border-radius: 10px;
+    transform-origin: bottom;
+    /* background: #000; */ /* for all watch*/
+}
+#hour{
+    /* height: 50px;
+    width: 5px;
+    display: flex;
+    top: 10px;
+    left: 10px; */
+    height: 10%;
+    width: 1%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    top: 23.8%;
+    left: 49%;
+    opacity: 0.8;
+    background: green ;
+
+}
+
+#minute{
+    /* height: 50px;
+    width: 5px;
+    display: flex;
+    top: 10px;
+    left: 10px; */
+    height: 13.4%;
+    width: 1%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    top: 20%;
+    left: 49%;
+    opacity: 0.8;
+    background: #000;
+
+}
+
+#second{
+    /* height: 50px;
+    width: 5px;
+    display: flex;
+    top: 10px;
+    left: 10px; */
+    height: 15.7%;
+    width: 1%;
+    /* justify-content: center; */
+    /* align-items: center; */
+    top: 18.2%;
+    left: 49%;
+    opacity: 0.8;
+    background: red;
+
+}
+
